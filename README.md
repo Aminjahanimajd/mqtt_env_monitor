@@ -34,17 +34,17 @@ This project implements an integrated system to collect, process, and store real
 2. Ensure Docker and Docker Compose are installed and running.
 
 3. Start services:
-
-docker-compose up -d
+  ```bash
+  docker-compose up -d
 
 4. Install Python dependencies:
-
-pip install -r requirements.txt
+  ```bash
+  pip install -r requirements.txt
 
 5. Run the publisher and subscriber scripts:
-
-python python_app/mqtt_publisher.py
-python python_app/mqtt_subscriber.py
+  ```bash
+  python python_app/mqtt_publisher.py
+  python python_app/mqtt_subscriber.py
 
 ## Usage
 
