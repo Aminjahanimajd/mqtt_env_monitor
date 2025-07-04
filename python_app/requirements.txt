@@ -1,1 +1,4 @@
 paho-mqtt
+pymongo
+psycopg2-binary
+py2neo
