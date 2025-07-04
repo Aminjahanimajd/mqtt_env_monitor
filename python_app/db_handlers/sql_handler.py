@@ -3,10 +3,11 @@ import psycopg2
 conn = psycopg2.connect(
     dbname="envdb",
     user="postgres",
-    password="admin",  # replace with your password
+    password="Aghayeamin1212",
     host="localhost",
     port="5432"
 )
+
 cursor = conn.cursor()
 
 cursor.execute("""
