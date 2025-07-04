@@ -27,22 +27,19 @@ This project implements an integrated system to collect, process, and store real
 ## Installation & Setup
 
 1. Clone this repository:
-   ```bash
+
    git clone https://github.com/Aminjahanimajd/mqtt_env_monitor.git
    cd mqtt_env_monitor
 
 2. Ensure Docker and Docker Compose are installed and running.
 
 3. Start services:
-  ```bash
   docker-compose up -d
 
 4. Install Python dependencies:
-  ```bash
   pip install -r requirements.txt
 
 5. Run the publisher and subscriber scripts:
-  ```bash
   python python_app/mqtt_publisher.py
   python python_app/mqtt_subscriber.py
 
